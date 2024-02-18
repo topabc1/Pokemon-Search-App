@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #1F1F39;
+  }
+  /******************/
+  #logo {
+    height: 2rem;
+  }
+  
+  #logo-div {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  
+  #heading {
+    color: white;
+  }
+  
+  #heading-div {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  /************************/
+  #container {
+    background-color: #B6B6B6;
+    width: 24rem;
+    height: 45rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0 #777777;
+  }
+  
+  #container p {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  #container input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  
+  #container input:focus {
+    border: 4px solid #2A62AF;
+  }
+  
+  #search-button {
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 1.2rem;
+    border: none;
+    color: white;
+    background-color: purple;
+  }
+  /************************/
+  #middle {
+    text-align: left;
+    background-color: #A0A0A0;
+    padding-bottom: 0.5rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  
+  #middle h2 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+  
+  #middle p {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+  
+  #image {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+  }
+  
+  #image img {
+    height: 12rem;
+  }
+  
+  #types {
+    display: flex;
+    margin-left: 1rem;
+  }
+  
+  #types div {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.2rem;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 0.4rem;
+  }
+  /*************************/
+  #grass {
+    background-color: #89C574;
+  }
+  
+  #poison {
+    background-color: #C57974;
+  }
+  
+  #normal {
+    background-color: #C5A874;
+  }
+  
+  #fire {
+    background-color: orange;
+  }
+  
+  #water {
+    background-color: blue;
+  }
+  
+  #electric {
+    background-color: yellow;
+  }
+  
+  #ice {
+    background-color: cyan;
+  }
+  
+  #fighting {
+    background-color: red;
+  }
+  
+  #ground {
+    background-color: brown;
+  }
+  
+  #flying {
+    background-color: purple;
+  }
+  
+  #psychic {
+    background-color: pink;
+  }
+  
+  #bug {
+    background-color: green;
+  }
+  
+  #rock {
+    background-color: brown;
+  }
+  
+  #ghost {
+    background-color: purple;
+  }
+  
+  #dragon {
+    background-color: purple;
+  }
+  
+  #dark {
+    background-color: brown;
+  }
+  
+  #steel {
+    background-color: gray;
+  }
+  
+  #fairy {
+    background-color: pink;
+  }
+  
+  #stellar {
+    background-color: cyan;
+  }
+  /*************************/
+  #stats {
+    display: grid;
+    grid-template-columns: 15rem 7rem;
+    gap: 0.5rem;
+    margin: auto;
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+  }
+  
+  #stats div {
+    height: 2rem;
+    background-color: purple;
+    padding-top: 0.4rem;
+    font-size: 1.2rem;
+    color: white;
+  }
